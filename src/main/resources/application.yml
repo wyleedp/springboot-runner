@@ -1,0 +1,15 @@
+# actuator 설정
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        
+spring:
+  boot:
+    admin:
+      context-path: admin-system
+  output:
+    ansi:
+      enabled: always
+        
